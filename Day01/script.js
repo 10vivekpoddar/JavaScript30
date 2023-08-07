@@ -3,9 +3,6 @@ function audioPlay(audio, key) {
   key.classList.add("playing");
   audio.currentTime = 0;
   audio.play();
-  setTimeout(() => {
-    audio.pause();
-  }, 2500);
 }
 
 function playOnClick(key) {
